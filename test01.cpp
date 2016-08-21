@@ -43,9 +43,23 @@ public:
 	}
 };
 
-int main()
+class C: public B
 {
-	B *b = new B;
+public:	
+	C()
+	{
+		cout<<"setup C"<<endl;
+	}	
+	~C()
+	{
+		cout<<"release C"<<endl;
+	}
+};
+
+int main()
+
+{
+	B *b = new C;
 	A *a = b;
 	a->killed();
 	while(1);
