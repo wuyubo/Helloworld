@@ -15,7 +15,7 @@ public:
 	};
 	void last()
 	{
-		cout<<"killed last"<<endl;
+		cout<<"killed last A"<<endl;
 	}
 	virtual void killed()
 	{
@@ -37,7 +37,10 @@ public:
 	{
 		cout<<"release B"<<endl;
 	};
-	
+	void last()
+	{
+		cout<<"killed last B"<<endl;
+	}
 };
 
 int main()
