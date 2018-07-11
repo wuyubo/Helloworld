@@ -41,6 +41,14 @@ public:
 	{
 		cout<<"killed last B"<<endl;
 	}
+	//test
+	void killed()
+	{
+		cout<<"killed B"<<endl;
+		delete this;
+		cout<<"killed this"<<endl;
+		last();
+	}
 };
 
 int main()
