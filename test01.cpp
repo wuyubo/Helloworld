@@ -49,6 +49,7 @@ public:
 		cout<<"killed this"<<endl;
 		last();
 		//第二次修改
+		//第三次修改
 	}
 };
 
